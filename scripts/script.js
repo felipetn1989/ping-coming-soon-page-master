@@ -16,14 +16,9 @@ function submit(x) {
 
   if (ifmail.value.length == 0 || isEmail(ifmail) == false) {
     ifmail.style.borderColor = "var(--Light-Red)";
-    let errorMsg = document.createElement('span')
-    errorMsg.innerText = `Please provide a valid email address`
-    errorMsg.style.textAlign = 'left'
-    errorMsg.style.color = 'var(--Light-Red)'
-    errorMsg.style.fontSize = '.75rem'
-    errorMsg.style.margin = '.5rem 3rem'
-    mail_form.appendChild(errorMsg)
+    errorMsg.style.display = "block";
   } else {
     ifmail.style.borderColor = "var(--Pale-Blue)";
+    errorMsg.style.display = "none";
   }
 }
