@@ -23,7 +23,7 @@
 */
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 /*
   Typographic tweaks!
@@ -96,7 +96,9 @@ body {
   justify-content: center;
   font-family: var(--ff-base);
 }
+
 .card {
+  margin-top: 5rem;
   width: 80vw;
   text-align: center;
 }
@@ -163,21 +165,21 @@ form {
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    gap: .8125rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8125rem;
 }
 
 ion-icon {
-    color: var(--Blue);
-    border: 1px solid var(--Pale-Blue);
-    padding: .5rem;
-    border-radius: 50%;
+  color: var(--Blue);
+  border: 1px solid var(--Pale-Blue);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .copyright {
-    color: var(--Gray);
-    margin-bottom: 1rem;
+  color: var(--Gray);
+  margin-bottom: 1rem;
 }
 
 .attribution,
@@ -187,4 +189,48 @@ ion-icon {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 60em) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 5.5rem;
+  }
+
+  .card > h1 {
+    font-size: 3rem;
+  }
+
+  .card > h2 {
+    font-size: 1.3125rem;
+  }
+
+  form {
+    grid-template-columns: 2.25fr 1fr;
+    gap: 0;
+    width: 90%;
+  }
+
+  #ifmail,
+  #notify {
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+
+  #notify {
+    margin-left: -0.5rem;
+  }
+
+  #ifmail::placeholder {
+    font-size: 1rem;
+  }
+
+  .dashboard {
+    width: 80%;
+  }
 }
