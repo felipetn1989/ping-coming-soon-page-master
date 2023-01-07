@@ -152,11 +152,20 @@ form {
   font-size: 0.6875rem;
 }
 
+#ifmail:focus {
+  outline: none;
+}
+
 #notify {
   background-color: var(--Blue);
   color: white;
   font-weight: var(--fw-semi-bold);
   font-size: 0.6875rem;
+}
+
+#notify:hover {
+  cursor: pointer;
+  opacity: 70%;
 }
 
 .dashboard {
@@ -177,6 +186,12 @@ ion-icon {
   border-radius: 50%;
 }
 
+ion-icon:hover {
+  color: white;
+  background-color: var(--Blue);
+  border-color: var(--Blue);
+}
+
 .copyright {
   color: var(--Gray);
   margin-bottom: 1rem;
@@ -187,12 +202,15 @@ ion-icon {
   font-size: 0.6875rem;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
+
 @media screen and (min-width: 60em) {
   .card {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
