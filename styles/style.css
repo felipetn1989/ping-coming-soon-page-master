@@ -238,7 +238,7 @@ ion-icon:hover {
   form {
     grid-template-columns: 2.25fr 1fr;
     gap: 0;
-    width: 90%;
+    width: 50%;
   }
 
   #errorMsg {
@@ -262,6 +262,7 @@ ion-icon:hover {
   }
 
   .dashboard {
-    width: 80%;
+    width: 45%;
+    margin-bottom: 3rem;
   }
 }
