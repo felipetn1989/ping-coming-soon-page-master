@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot%202023-01-07%20at%2017-59-24%20Frontend%20Mentor%20Ping%20coming%20soon%20page.png)
 
 ### Links
 
