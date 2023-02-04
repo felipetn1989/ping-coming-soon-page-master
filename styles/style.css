@@ -239,7 +239,6 @@ ion-icon:hover {
   form {
     grid-template-columns: 2.25fr 1fr;
     gap: 0;
-    width: 50%;
   }
 
   #errorMsg {
@@ -254,8 +253,13 @@ ion-icon:hover {
     font-size: 1rem;
   }
 
+  #ifmail {
+    width: 27rem;
+  }
+
   #notify {
-    margin-left: -0.5rem;
+    width: 12rem;
+    margin-left: 0.25rem;
   }
 
   #ifmail::placeholder {
@@ -263,7 +267,7 @@ ion-icon:hover {
   }
 
   .dashboard {
-    width: 45%;
-    margin-bottom: 3rem;
+    width: 55%;
+    margin-bottom: 4.5rem;
   }
 }
