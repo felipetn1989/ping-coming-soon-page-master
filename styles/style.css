@@ -98,7 +98,7 @@ body {
 }
 
 .card {
-  margin-top: 5rem;
+  margin-top: 5.125rem;
   width: 80vw;
   text-align: center;
 }
@@ -110,11 +110,11 @@ body {
 .logo {
   width: 3.5rem;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 2.625rem;
 }
 
 .card > h1 {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 
 .gray {
@@ -146,7 +146,7 @@ form {
   border-radius: 2rem;
   border: none;
   height: 2.375rem;
-  width: 90%;
+  width: 17.3125rem;
   margin: auto;
 }
 
@@ -179,6 +179,7 @@ form {
 .dashboard {
   margin-bottom: 8rem;
   margin-top: 4rem;
+  width: 100%;
 }
 
 .icons {
